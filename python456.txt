@@ -1,0 +1,30 @@
+37. Write a Python program to display your details like name, age, address in three different lines?
+A)name,age="kusuma",20
+address="near oldbustand,kurnool"
+print(name)
+print(age)
+print(address)
+
+5. Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them?
+A)a=input("Enter your first name:")
+b=input("enter your last name:")
+c=b+" "+a
+print(c)
+
+10. Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn?
+Sample value of n is 5
+Expected Result : 615
+
+a = int(input("Input an integer : "))
+n1 = int( "%s" % a )
+n2 = int( "%s%s" % (a,a) )
+n3 = int( "%s%s%s" % (a,a,a) )
+print (n1+n2+n3)
+24. Write a Python program to test whether a passed letter is a vowel or not?
+A)for example:
+vowels=a,e
+if a in vowels:
+    print("True")
+else:
+    print("False")  
+
